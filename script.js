@@ -13,5 +13,5 @@ calcular.addEventListener('click' , ()=>{
     volts = calcLeiOhm(resistencia, corrente)
     
     resposta.innerHTML = ``
-    resposta.innerHTML += `Volts: <b>${volts.toFixed(2)}</b>`
+    resposta.innerHTML += `O valor em Volts: <b>${volts.toFixed(2)}</b>`
 })
